@@ -1,5 +1,5 @@
 # FakeNews_Detection
-1. Abstract
+1. Abstract<br>
 The objective of this project is to detect fake news using machine learning
 techniques. We implemented a solution that uses a combination of VADER
 sentiment analysis for headlines, a Random Forest Classifier for article text,
@@ -7,14 +7,14 @@ incorporating the various subjects as features for the model and various
 linguistic features such as average sentence length, Flesch-Kincaid readability,
 and keywords feature.
 ---
-2. Text-Based Features:
-○ Average Sentence Length: A measure of sentence complexity.
+2. Text-Based Features:<br>
+○ Average Sentence Length: A measure of sentence complexity.<br>
 ○ Flesch-Kincaid Readability Score: A metric indicating the
-readability of the text.
+readability of the text.<br>
 These features were calculated and added to the dataset as
 additional predictors for the model.
 ---
-4. Dataset
+4. Dataset<br>
 The dataset used for training and testing contains news articles labeled as 1
 (for real) or 0 (for fake). It consists of 5 columns:<br>
 ● id: Unique identifier for each article.<br>
@@ -23,13 +23,13 @@ The dataset used for training and testing contains news articles labeled as 1
 ● date: The date of publication.<br>
 ● label: The true label indicating whether the article is fake or real, using
 which our model accuracy will be determined<br>
-● subject: The category or domain of the article (e.g., politics, world<br>
+● subject: The category or domain of the article (e.g., politics, world
 news, etc.).<br>
 After processing the datasets through the ML model, features such as
 sentiment analysis scores, readability metrics, and average sentence length,
 are added.
 ---
-6. Model and Approach
+6. Model and Approach<br>
 We used a Random Forest Classifier to build the classification model for
 the articles' text. The Random Forest algorithm was chosen for its ability to
 handle high-dimensional data, its ability to implement feature importance and
@@ -42,7 +42,7 @@ features:<br>
 news, Middle-east, US).<br>
 The training and testing data were split using an 80-20 ratio.
 ---
-8. Results
+8. Results<br>
 After each feature implementation as shown in sections in the code notebook,
 the model accuracy climbed from initial 54% to 100% by the final stage, for
 both train and test datasets.<br>
