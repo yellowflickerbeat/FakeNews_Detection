@@ -34,7 +34,7 @@ We used a Random Forest Classifier to build the classification model for
 the articles' text. The Random Forest algorithm was chosen for its ability to
 handle high-dimensional data, its ability to implement feature importance and
 its robustness in the context of overfitting. We also incorporated the following
-features:
+features:<br>
 ● Content sentiment scores from VADER.<br>
 ● Average sentence length and Flesch-Kincaid readability scores.<br>
 ● Keywords for fake news detection.<br>
@@ -51,8 +51,9 @@ tested again, the accuracy dropped to 48%, which is expected when the labels
 are randomized. This confirmed that the model was not overfitting and there
 was no data leakage due to overlapping between test and training data. This
 also implied that the accuracy resulted from the model observing patterns
-within the data.<br>
-Key evaluation metrics:
-● Accuracy: 100% (on the original dataset before label shuffling).
+within the data.<br><br>
+Key evaluation metrics:<br>
+● Accuracy: 100% (on the original dataset before label shuffling).<br>
 ● Classification Report: Included metrics such as precision, recall, and
 F1-score for both "fake" and "real" classes.
+---
