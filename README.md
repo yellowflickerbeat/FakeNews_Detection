@@ -1,7 +1,7 @@
 # FakeNews_Detection
 1. Abstract<br>
 The objective of this project is to detect fake news using machine learning
-techniques. We implemented a solution that uses a combination of VADER
+techniques. I implemented a solution that uses a combination of VADER
 sentiment analysis for headlines, a Random Forest Classifier for article text,
 incorporating the various subjects as features for the model and various
 linguistic features such as average sentence length, Flesch-Kincaid readability,
@@ -30,10 +30,10 @@ sentiment analysis scores, readability metrics, and average sentence length,
 are added.
 ---
 6. Model and Approach<br>
-We used a Random Forest Classifier to build the classification model for
+I used a Random Forest Classifier to build the classification model for
 the articles' text. The Random Forest algorithm was chosen for its ability to
 handle high-dimensional data, its ability to implement feature importance and
-its robustness in the context of overfitting. We also incorporated the following
+its robustness in the context of overfitting. I also incorporated the following
 features:<br>
 ● Content sentiment scores from VADER.<br>
 ● Average sentence length and Flesch-Kincaid readability scores.<br>
